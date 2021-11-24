@@ -1,0 +1,161 @@
+*{
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper{ 
+   width: 1200px; 
+   background-color:lightgrey;
+   margin: 0 auto; 
+  }
+
+.float_left{
+  float: left;
+}
+
+.float_right{
+  float:right;
+}
+
+.clear{
+  clear: both;
+}
+
+h1{
+  padding-left: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkblue;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total{
+  padding-left: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+  font-size: 14px;
+}
+
+.online{
+  padding-right: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2{
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  text-align: right;
+  color: tomato;
+  letter-spacing: 3px;
+}
+
+.row{
+  margin: auto;
+}
+
+.col{
+  text-align: left;
+  float: left;
+  width: 320px;
+  height: 320px;
+}
+
+.card{
+  padding: 20px 20px;
+  background-color: white;
+  min-height: 312px;
+  min-width: 10px;
+  border-radius: 9px;
+  margin-right: 10px;
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+
+.card .details a{ 
+  width: 80px; 
+  background-color: blue;
+  color: #fff;
+  border-radius: 15px;  
+  padding: 8px;
+  text-decoration: none; 
+  float: right; 
+  text-align: center;
+    }
+
+  .card .details a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }  
+
+img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+img:hover {
+  transform: scale(1.5); 
+}
+
+h4{ 
+  color: tomato;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.details{
+  margin-left: 20px;
+}
+
+.country{
+  font-size: 11px;
+  font-weight: bold;
+  color: gray;
+  margin-top: -20px;
+}
+
+.desc{
+  font-weight: bold;
+  color:black;
+  min-height: 45px;
+  font-size: 13px;
+  line-height: 1.5;
+} 
+
+
+
+@media only screen and (max-width: 600px) {
+  .wrapper{
+    width: 100%;
+  }
+  .card{ 
+    width: 94%;
+  }
+  h1,.total{
+     padding-left: 10px;
+     }
+  h2{
+    padding-right: 10px;
+  }
+  .online{ 
+    padding-right: 10px;
+   }
+   
+}
+
+
+
+
+
